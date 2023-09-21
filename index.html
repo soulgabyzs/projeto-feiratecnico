@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Tabela Periódica</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-image: url(walterwhite.jpg);
+
+            text-align: center;
+
+            color: rgb(235, 107, 16);
+
+        }
+
+ 
+
+        select {
+
+            padding: 10px;
+
+            font-size: 16px;
+
+            opacity: 0.7;
+
+            background-color: #131010;
+
+            color: rgb(235, 107, 16);
+
+        }
+
+ 
+
+        #element-info {
+
+            background-color: #131010;
+
+            border-radius: 10px;
+
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+            width: 300px;
+
+            margin: 20px auto;
+
+            padding: 20px;
+
+            opacity: 0.7;
+
+        }
+
+ 
+
+        h1 {
+
+            font-size: 24px;
+
+        }
+
+ 
+
+        p {
+
+            font-size: 16px;
+
+        }
+
+        h1 {
+            color: black;
+        }
+
+        .Nada {
+            opacity: 0;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Selecione um Elemento da Tabela Periódica</h1>
+
+    <select id="element-selector">
+
+        <option id="Nada" value="Nada"></option>
+
+        <option value="H">Hidrogênio</option>
+
+        <option value="He">Hélio</option>
+
+        <option value="Li">Lítio</option>
+
+        <option value="Be">Berílio</option>
+
+        <option value="B">Boro</option>
+
+        <option value="C">Carbono</option>
+
+        <option value="N">Nitrogênio</option>
+
+        <option value="O">Oxigênio</option>
+
+        <option value="F">Flúor</option>
+
+        <option value="Ne">Neônio</option>
+
+    </select>
+
+ 
+
+    <div id="element-info">
+
+        <h2>Informações do Elemento</h2>
+
+        <p id="element-name">Nome: </p>
+
+        <p id="element-symbol">Símbolo: </p>
+
+        <p id="element-type">Tipo: </p>
+
+        <p id="element-atomic-number">Número Atômico: </p>
+
+        <p id="element-mass">Massa Atômica: </p>
+
+    </div>
+
+ 
+
+    <script>
+
+        const elementSelector = document.getElementById("element-selector");
+
+        const elementName = document.getElementById("element-name");
+
+        const elementSymbol = document.getElementById("element-symbol");
+
+        const elementType = document.getElementById("element-type");
+
+        const atomicNumber = document.getElementById("element-atomic-number");
+
+        const elementMass = document.getElementById("element-mass");
+
+ 
+
+        
+
+        const elementData = {
+
+            "Nada": { name: "Nada", symbol: "Nada", type: "Nada", atomicNumber: 0, mass: 0 },
+            
+            "H": { name: "Hidrogênio", symbol: "H", type: "Não metais", atomicNumber: 1, mass: 1.008 },
+
+            "He": { name: "Hélio", symbol: "He", type: "Gases nobres", atomicNumber: 2, mass: 4.003 },
+
+            "Li": { name: "Lítio", symbol: "Li", type: "Metais alcalinos", atomicNumber: 3, mass: 6.941 },
+
+            "Be": { name: "Berílio", symbol: "Be", type: "Metais alcalino-terrosos", atomicNumber: 4, mass: 9.012 },
+
+            "B": { name: "Boro", symbol: "B", type: "Semimetais", atomicNumber: 5, mass: 10.811 },
+
+            "C": { name: "Carbono", symbol: "C", type: "Não metais", atomicNumber: 6, mass: 12.011 },
+
+            "N": { name: "Nitrogênio", symbol: "N", type: "Não metais", atomicNumber: 7, mass: 14.007 },
+
+            "O": { name: "Oxigênio", symbol: "O", type: "Não metais", atomicNumber: 8, mass: 15.999 },
+
+            "F": { name: "Flúor", symbol: "F", type: "Halogênios", atomicNumber: 9, mass: 18.998 },
+
+            "Ne": { name: "Neônio", symbol: "Ne", type: "Gases nobres", atomicNumber: 10, mass: 20.18 },
+
+            "Na": { name: "Sódio", symbol: "Na", type: "Metais alcalinos", atomicNumber: 11, mass: 22.99 },
+
+            "Mg": { name: "Magnésio", symbol: "Mg", type: "Metais alcalino-terrosos", atomicNumber: 12, mass: 24.305 },
+
+            "Al": { name: "Alumínio", symbol: "Al", type: "Outros metais", atomicNumber: 13, mass: 26.982 },
+
+            "Si": { name: "Silício", symbol: "Si", type: "Semimetais", atomicNumber: 14, mass: 28.086 },
+
+            "P": { name: "Fósforo", symbol: "P", type: "Não metais", atomicNumber: 15, mass: 30.974 },
+
+            "S": { name: "Enxofre", symbol: "S", type: "Não metais", atomicNumber: 16, mass: 32.065 },
+
+            "Cl": { name: "Cloro", symbol: "Cl", type: "Halogênios", atomicNumber: 17, mass: 35.453 },
+
+            "Ar": { name: "Argônio", symbol: "Ar", type: "Gases nobres", atomicNumber: 18, mass: 39.948 },
+
+            "K": { name: "Potássio", symbol: "K", type: "Metais alcalinos", atomicNumber: 19, mass: 39.098 },
+
+            "Ca": { name: "Cálcio", symbol: "Ca", type: "Metais alcalinos-terrosos", atomicNumber: 20, mass: 40.078 },
+
+            "Sc": { name: "Escândio", symbol: "Sc", type: "Metais de transição", atomicNumber: 21, mass: 44.956 },
+
+            "Ti": { name: "Titânio", symbol: "Ti", type: "Metais de transição", atomicNumber: 22, mass: 47.867 },
+
+            "V": { name: "Vanádio", symbol: "V", type: "Metais de transição", atomicNumber: 23, mass: 50.943 },
+
+            "Cr": { name: "Cromo", symbol: "Cr", type: "Metais de transição", atomicNumber: 24, mass: 51.996 },
+
+             "Mn": { name: "Mangânes", symbol: "Mn", type: "Metais de transição", atomicNumber: 25, mass: 54.938 },
+
+             "Fe": { name: "Ferro", symbol: "Fe", type: "Metais de transição", atomicNumber: 26, mass: 55.845 },
+
+             "Co": { name: "Cobalto", symbol: "Co", type: "Metais de transição", atomicNumber: 27, mass: 58.933 },
+
+             "Ni": { name: "Niquel", symbol: "Ni", type: "Metais de transição", atomicNumber: 28, mass:58.693 },
+
+             "Cu": { name: "Cobre", symbol: "Cu", type: "Metais de transição", atomicNumber: 29, mass: 63.543 },
+
+             "Zi": { name: "Zinco", symbol: "Zi", type: "Metais de transição", atomicNumber: 30, mass: 65.409 },
+        
+             "Ga": { name: "Gálio", symbol: "Ga", type: "Lantanideos", atomicNumber: 31, mass: 69.723 },
+        
+             "Ge": { name: "Germânio", symbol: "Ge", type: "Semimetais", atomicNumber: 32, mass: 72.64 },
+            
+             "As": { name: "Arsênio", symbol: "As", type: "Semimetais", atomicNumber: 33, mass: 74.922 },
+            
+             "Se": { name: "Selênio", symbol: "Se", type: "Não metais", atomicNumber: 34, mass: 78.96 },
+
+             "Br": { name: "Bromo", symbol: "Br", type: "Halogênios", atomicNumber: 35, mass: 79.904 },
+            
+             "Kr": { name: "Criptônio", symbol: "Kr", type: "Gases nobres", atomicNumber: 36, mass:83.798 },
+            
+             "Rb": { name: "Rubídio", symbol: "Rb", type: "Metais alcalinos", atomicNumber: 37, mass: 85.468 },
+            
+             "Sr": { name: "Estrôncio", symbol: "Sr", type: "Metais alcalino-terrosos", atomicNumber: 38, mass: 87.62 },
+            
+             "Y": { name: "Ítrio", symbol: "Y", type: "Metais de condução", atomicNumber: 39, mass: 88.906 },
+            
+             "Zr": { name: "Zicrônio", symbol: "Zr", type: "Metais de condução", atomicNumber: 40, mass: 91.224 },
+            
+             "Nb": { name: "Nióbio", symbol: "Nb", type: "Metais de transição", atomicNumber: 41, mass: 92.90638 },
+
+             "Mo": { name: "Molibdênio", symbol: "Mo", type: "Metais de transição", atomicNumber: 42, mass: 95.94 },
+
+             "Tc": { name: "Tecnécio", symbol: "Tc", type: "Metais de transição", atomicNumber: 43, mass: [98] },
+
+             "Ru": { name: "Rutênio", symbol: "Ru", type: "Metais de transição", atomicNumber: 44, mass: 101.07 },
+
+             "Rh": { name: "Ródio", symbol: "Rh", type: "Metais de transição", atomicNumber: 45, mass: 102.90550 },
+
+             "Pd": { name: "Paládio", symbol: "Pd", type: "Metais de transição", atomicNumber: 46, mass: 106.42 },
+
+             "Ag": { name: "Prata", symbol: "Ag", type: "Metais de transição", atomicNumber: 47, mass: 107.868 },
+
+             "Cd": { name: "Cádmio", symbol: "Cd", type: "Metais de transição", atomicNumber: 48, mass: 112.411 },
+
+             "In": { name: "Índio", symbol: "In", type: "Outros metais", atomicNumber: 49, mass: 114.818 },
+
+             "Sn": { name: "Estanho", symbol: "Sn", type: "Outros metais", atomicNumber: 50, mass: 118.71 },
+            };
+
+ 
+
+        elementSelector.addEventListener("change", () => {
+
+            const selectedElement = elementSelector.value;
+
+            const selectedData = elementData[selectedElement];
+
+ 
+
+elementName.textContent = `Nome: ${selectedData.name}`;
+
+            elementSymbol.textContent = `Símbolo: ${selectedData.symbol}`;
+
+            elementType.textContent = `Tipo: ${selectedData.type}`;
+
+            atomicNumber.textContent = `Número Atômico: ${selectedData.atomicNumber}`;
+
+            elementMass.textContent = `Massa Atômica: ${selectedData.mass}`;
+
+        });
+
+    </script>
+
+</body>
+
+</html>
