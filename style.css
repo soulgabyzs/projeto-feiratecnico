@@ -39,6 +39,7 @@ th#txtTh{
     border: none;
     border-radius: 5px 5px 0px 0px;
     border-color: rgb(0, 0, 0);
+    margin-top: 5.5%;
 }
 
 #txt{ 
@@ -56,6 +57,7 @@ th#txtTh{
     padding: 10px;
     border-radius: 0px 0px 5px 5px;
     border: none;
+    margin-top: 5.5%;
 }
 
 div#icone{
@@ -195,3 +197,7 @@ footer{
     animation-duration: 3s;
 }
 
+.colunas {
+    color: rgb(255, 217, 0);
+    margin-top: 3%;
+}
