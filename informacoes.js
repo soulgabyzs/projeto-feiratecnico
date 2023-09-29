@@ -25,49 +25,49 @@ celulas.forEach(function(elemento){
 
 /*Classe de Não Metais*/
 h.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O hidrogénio ou hidrogênio é um elemento químico com número atómico ou atômico 1 e representado pelo símbolo H. Com uma massa atómica de aproximadamente 1,0 u, o hidrogénio é o elemento menos denso.'
+    texto.innerHTML = 'É raro na atmosfera terrestre, por conta de sua baixa densidade, apesar disso é abundante na superfície da Terra. Quando dois átomos de hidrogênio se ligam, formam a molécula H2, conhecida como gás hidrogênio. ubstância gasosa, inflamável, incolor, inodora, não metálica e insolúvel em água. Descoberto em 1766 por Henry Cavendish.'
 
     icone.innerHTML = '<p id="indice">1</p>H'
     txtTh.innerText = 'hidrogênio'
 })
 
 c.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O carbono (do latim carbo, carvão) é um elemento químico, símbolo C, número atômico 6, massa atómica 12 u, sólido à temperatura ambiente. Como um membro do grupo 14 da tabela periódica, ele é um não metal e tetravalente - fazendo quatro elétrons disponíveis na forma de ligações covalentes.'
+    texto.innerHTML = 'As características físicas variam de acordo com sua forma alotrópica. Por exemplo, o diamante é totalmente transparente, enquanto o grafite é preto e opaco. Em relação à condutividade elétrica, apenas o grafite é um bom condutor, já o restante apresenta boa condutividade térmica em condições ambientes de temperatura e pressão. Sobre o estado físico, todos os alótropos são sólidos em temperatura ambiente. Descoberto em 1754 por Joseph Black.'
 
     icone.innerHTML = '<p id="indice">6</p>C'
     txtTh.innerText = 'carbono'
 })
 
 n.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O azoto, nitrogénio ou nitrogênio é um elemento químico com símbolo N, número atómico 7 e de massa atómica 14,00674 u, representado no grupo 7 da tabela periódica. Pertence à família dos pnicogénios.'
+    texto.innerHTML = 'Naturalmente, é encontrado como gás na atmosfera terrestre. Ademais, é incolor, inodoro e insípido. Está presente nos meteoritos, gases de vulcões, minas, no Sol e demais estrelas. Na Terra, pode ser encontrado na atmosfera, na chuva, no solo, no guano e nas proteínas, que constituem os organismos vivos. Descoberto em 1772 por Daniel Rutherford e Antoine Laurent Lavoisier.'
 
     icone.innerHTML = '<p id="indice">7</p>N'
     txtTh.innerText = 'nitrogênio'
 })
 
 o.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O oxigénio ou oxigênio é um elemento químico de número atómico 8 e símbolo O representando com massa atómica 16 u. Constitui parte do grupo dos calcogénios e é um não metal reactivo e um forte agente oxidante que facilmente forma compostos com a maioria doutros elementos.'
+    texto.innerHTML = 'Trata-se do elemento mais abundante da superfície da Terra e o terceiro do Universo, que pode ser encontrado na forma livre ou combinado com outras substâncias, como a água (H2O). O gás oxigênio, que apresenta fórmula O2, está presente na atmosfera terrestre e é indispensável à vida, pois praticamente todos os seres vivos o utilizam na respiração. Além disso, essa substância também participa do processo de fotossíntese. Descoberto em 1774 por Joseph Priestley.'
 
     icone.innerHTML = '<p id="indice">8</p>O'
     txtTh.innerText = 'oxigênio'
 })
 
 p.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O fósforo é um elemento químico de símbolo P, número atômico 15 e massa atómica igual a 30,973762 u.'
+    texto.innerHTML = 'Ametal da família do nitrogênio. Em temperatura ambiente, é incolor e semitransparente, mas no escuro apresenta fosforescência (brilha). Macio, possuindo aparência de cera de abelha. O fósforo é altamente reativo quando exposto à atmosfera. Entra em ignição espontaneamente ao ar, gerando intensa névoa branca de óxidos de vapor, os quais interagem com a umidade formando ácidos. Descoberto em 1669 por Hennig Brandt.'
 
     icone.innerHTML = '<p id="indice">15</p>P'
     txtTh.innerText = 'fósforo'
 })
 
 s.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O enxofre ou súlfur é um elemento químico de símbolo S, com número atômico 16 e massa atômica 32 u. À temperatura ambiente, o enxofre encontra-se no estado sólido.'
+    texto.innerHTML = 'É um sólido amarelo classificado na tabela periódica como um não metal e representa cerca de 3% da massa terrestre. É base para a síntese de ácido sulfúrico, um dos compostos mais produzidos mundialmente em escala industrial. O enxofre também está presente na constituição dos aminoácidos de plantas e animais. Descoberto em 1777 por Antoine Lavoisier.'
 
     icone.innerHTML = '<p id="indice">16</p>S'
     txtTh.innerText = 'enxofre'
 })
 
 se.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O selênio ou selénio é um elemento químico de símbolo Se, número atômico 34 e com massa atómica de 78 u. Em condições normais de temperatura e pressão, o selênio encontra-se no estado sólido. É um não metal do grupo dos calcogênios da Classificação Periódica dos Elementos.'
+    texto.innerHTML = 'O selênio em sua forma elementar é relativamente atóxico, mas os seus compostos, como o H2Se, são muito tóxicos. Mesmo assim, é considerado um elemento-traço essencial, cuja ingestão diária é recomendada na faixa de 55 microgramas por dia, não podendo exceder os 800 microgramas. Isso porque o Se é um importante antioxidante, impedindo a ação de radicais livres e do oxigênio sobre as células, prevenindo-nos de envelhecimento precoce e outras doenças. Descoberto em 1817 por Jons Jacob Berzelius.'
     
     icone.innerHTML = '<p id="indice">34</p>Se'
     txtTh.innerText = 'selênio'
@@ -75,49 +75,49 @@ se.addEventListener('mouseover',()=>{
 
 /*Classe de Gases Nobres*/
 he.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O hélio é um elemento químico de símbolo He e que possui massa atómica igual a 4 u, apresentando número atômico 2. À temperatura ambiente, o hélio encontra-se no estado gasoso.'
+    texto.innerHTML = 'Gás monoatômico, baixo peso, incolor, inodoro, não inflamável e não tóxico. É um elemento abundante na massa do Sol e das estrelas. Na Terra, é encontrado junto ao gás natural, além de ser produzido por desintegrações de outros elementos. Descoberto em 1868 por Pierre Janssen e Norman Lockyer.'
 
     icone.innerHTML = '<p id="indice">2</p>He'
     txtTh.innerText = 'hélio'
 })
 
 ne.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O néon ou neônio é um elemento químico de símbolo Ne, número atômico 10 com massa atômica 20 u.'
+    texto.innerHTML = 'É o segundo elemento mais abundante na atmosfera terrestre, após o ar, e tem o segundo ponto de ebulição mais baixo, depois do hélio. É incolor, inodoro, insípido e quimicamente inerte. Obtido como subproduto da liquefação do ar, é conhecido por sua aplicação em sinais luminosos e possui grande potencial refrigerante em sua forma líquida. Descoberto em 1898 por Sir William Ramsay e Morris William Travers.'
 
     icone.innerHTML = '<p id="indice">10</p>Ne'
     txtTh.innerText = 'neônio'
 })
 
 ar.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O árgon/árgão/argão/argónio ou argônio/argon é um elemento químico, de símbolo Ar, número atômico 18 e massa atômica 40 u, encontrado no estado gasoso em temperatura ambiente. Ele foi o primeiro gás nobre descoberto, sendo creditado por tal feito pelos ingleses William Ramsay e Lord Rayleigh em 1894.'
+    texto.innerHTML = 'Trata-se de um elemento monoatômico inodoro, incolor, inerte e insípido que possui essas características são tanto no estado gasoso quanto no líquido. O argônio um gás não tóxico que tem o ponto de fusão em -189,34ºC e o ponto de ebulição em -185,84ºC. Descoberto em 1894 por Lord Rayleigh e Sir William Ramsay.'
 
     icone.innerHTML = '<p id="indice">18</p>Ar'
     txtTh.innerText = 'argônio'
 })
 
 kr.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O crípton ou criptônio é um elemento químico de símbolo Kr de número atómico e 36 e de massa atómica igual a 83,8 u. À temperatura ambiente, o crípton encontra-se no estado gasoso. É um elemento do grupo dos gases nobres, 18 da Classificação Periódica dos elementos.'
+    texto.innerHTML = 'O criptônio é o gás nobre mais leve a fazer compostos que podem ser isolados em quantidades macroscópicas, sendo o principal composto o KrF2, um oxidante fortíssimo, cujo comportamento químico chamam a atenção de pesquisadores da área. Sua produção comercial se dá por destilação fracionada do ar liquefeito, mas o isótopo 85 desse elemento é produto da fissão do urânio. Descoberto em 1898 por Sir William Ramsay e Morris William Travers.'
 
     icone.innerHTML = '<p id="indice">36</p>Kr'
     txtTh.innerText = 'criptônio'
 })
 
 xe.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O xénon ou xenônio, do grego xénos - estrangeiro, é um elemento químico de símbolo Xe de número atômico 54 e de massa atómica igual a 131,3 u. À temperatura ambiente, o xenônio encontra-se no estado gasoso. É um dos gases nobres da classificação periódica dos elementos, grupo 18.'
+    texto.innerHTML = 'O xenônio é capaz de emitir brilho azul quando sofre descarga elétrica em um tubo de descarga. Por isso, suas aplicações são relacionadas a essa propriedade. Assim, o xenônio pode ser empregado na confecção de lasers, porém ele é encontrado principalmente na constituição de diversas lâmpadas. Descoberto em 1898 por Sir William Ramsay e Morris William Travers.'
 
     icone.innerHTML = '<p id="indice">54</p>Xe'
     txtTh.innerText = 'xenônio'
 })
 
 rn.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O elemento rádon/radão/radónio ou radônio é um elemento químico com o símbolo Rn. Foi descoberto por Robert Bowie Owens e Ernest Rutherford em 1899.'
+    texto.innerHTML = 'O radônio é utilizado em alguns tratamentos de câncer, porém o que chama atenção é seu grande risco. Quando inalado, a sua desintegração radioativa pode causar sérios danos aos pulmões, e, além disso, os elementos gerados em sua desintegração são extremamente tóxicos. Descoberto em 1900 por Friedrich Ernst Dorn.' 
 
     icone.innerHTML = '<p id="indice">86</p>Rn'
     txtTh.innerText = 'radônio'
 })
 
 og.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O oganésson ou oganessônio é o elemento químico superpesado sintético de número atômico 118, de símbolo químico Og. Ocupa o grupo 18 da tabela periódica juntamente com os gases nobres. Em 2015, a IUPAC e a IUPAP confirmaram descoberta dos elementos nipónio, moscóvio, tenesso e o oganésson.'
+    texto.innerHTML = 'Não pode ser encontrado na natureza, e sua produção é artificial, sendo então considerado um elemento sintético. Mesmo assim, sua produção é muito difícil, e ele é considerado um elemento muito raro, tendo sido sintetizado pouquíssimas vezes. Descoberto em 2006 por Yuri Oganessian.'
 
     icone.innerHTML = '<p id="indice">118</p>Og'
     txtTh.innerText = 'oganessônio'
@@ -125,28 +125,28 @@ og.addEventListener('mouseover',()=>{
 
 /*Classe de Metais Alcalinos*/
 li.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O lítio é um elemento químico de símbolo Li, número atômico 3 e massa atômica 7, contendo, na sua estrutura, três prótons e três elétrons. Na tabela periódica dos elementos químicos, pertencente ao grupo 1, dos elementos alcalinos.'
+    texto.innerHTML = 'O lítio é um elemento altamente reativo encontrado em minerais e águas salgadas. É obtido industrialmente por eletrólise do cloreto de lítio e é armazenado em óleo mineral devido à sua rápida oxidação em contato com o ar, mudando de cor de prateado para cinza.. Descoberto em 1817 Johan August '
 
     icone.innerHTML = '<p id="indice">3</p>Li'
     txtTh.innerText = 'lítio'
 })
 
 na.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O sódio é um elemento químico de símbolo Na, de número atômico 11, massa atômica 23 u. É um metal alcalino, sólido na temperatura ambiente, macio, untuoso, de coloração branca, ligeiramente prateada. Foi isolado em 1807 por Sir Humphry Davy por meio da eletrólise da soda cáustica fundida.'
+    texto.innerHTML = ' O sódio é muito importante, pois se faz presente no corpo humano e também na alimentação diária. É o principal tempero caseiro: cloreto de sódio (NaCl), mais conhecido como sal de cozinha. Está presente na nossa estrutura corpórea da seguinte maneira: quando atinge sua forma ionizada dentro de nosso organismo, o sódio se torna um dos principais fatores de regulação osmótica do sangue, de fluidos intercelulares e do equilíbrio ácido-base. Descoberto em 1807 – Humphry Davy '
 
     icone.innerHTML = '<p id="indice">11</p>Na'
     txtTh.innerText = 'sódio'
 })
 
 k.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O potássio é um elemento químico de símbolo K, número atômico 19, distribuição eletrónica 2-8-8-1, metal alcalino, de massa atómica 39 u, coloração branco prateado, abundante na natureza, encontrado principalmente nas águas salgadas e outros minerais.'
+    texto.innerHTML = ' É um metal extremamente macio e reativo pertencente ao grupo dos metais alcalinos. Sua reatividade com o gás oxigênio e com a água é alta, podendo, inclusive, ocasionar explosões. Possui um isótopo natural radioativo, utilizado para a datação de rochas. É o sétimo elemento mais abundante da crosta terrestre. Descoberto em 1807 Humphry Davy '
 
     icone.innerHTML = '<p id="indice">19</p>K'
     txtTh.innerText = 'potássio'
 })
 
 rb.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O rubídio é um elemento químico de símbolo Rb de número atômico 37. O rubídio é um elemento metálico leve, brancoprateado e do grupo dos metais alcalinos.'
+    texto.innerHTML = 'Pode ser utilizado na fabricação de fotocélulas, vidros especiais e como propelente em motores iônicos de espaçonaves. O rubídio forma uma grande quantidade de compostos, embora nenhum deles ainda tenha uma aplicação comercial significante. Descoberto em 1861 Robert Wilhelm Bunsen e Gustav Kirchhoff '
 
     icone.innerHTML = '<p id="indice">37</p>Rb'
     txtTh.innerText = 'rubídio'
