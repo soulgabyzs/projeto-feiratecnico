@@ -78,13 +78,13 @@ div#icone{
 }
 
 p#indice{
-    font-size: 18px;
+    font-size: 13px;
 }
 
 span#informativo{
     width: 400px;
     margin-left:16px;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 table#principal{
@@ -102,7 +102,7 @@ table#principal{
 
 p{
     position: absolute;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 100;
     left: 4px;
     top: 3px;
