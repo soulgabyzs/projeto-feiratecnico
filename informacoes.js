@@ -575,28 +575,28 @@ pb.addEventListener('mouseover',()=>{
 })
 
 fl.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'É um elemento transurânico, radioativo, provavelmente metálico, sólido e de aspecto prateado. Foi sintetizado por uma equipe de cientistas russos da cidade russa de Dubna. Junto com o moscóvio toma parte da denominada "ilha de estabilidade", cujos elementos químicos, teoricamente, deveriam ser mais estáveis do que aqueles que os rodeiam. Foi descoberto em 1998 por Sigurd Hofmann'
+    texto.innerHTML = 'É um elemento transurânico, radioativo, provavelmente metálico, sólido e de aspecto prateado. Foi sintetizado por uma equipe de cientistas russos da cidade russa de Dubna. Junto com o moscóvio toma parte da denominada "ilha de estabilidade", cujos elementos químicos, teoricamente, deveriam ser mais estáveis do que aqueles que os rodeiam. Descoberto em 1998 por Sigurd Hofmann.'
 
     icone.innerHTML = '<p id="indice">114</p>Fl'
     txtTh.innerText = 'Fleróvio'
 })
 
 bi.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O bismuto é empregado em ligas metálicas, assim como na indústria de cosméticos e em medicamentos. É muito conhecido pela sua propriedade diamagnética e é um dos poucos materiais que se expandem ao solidificar-se (tal qual a água). É encontrado na forma de sulfetos ou óxidos, mas também na forma de cristais elementares, que formam pequenas camadas de óxidos na superfície e refletem tonalidades furta-cor. Foi descoberto em 1753 por Claude François Geoffroy'
+    texto.innerHTML = 'O bismuto é empregado em ligas metálicas, assim como na indústria de cosméticos e em medicamentos. É muito conhecido pela sua propriedade diamagnética e é um dos poucos materiais que se expandem ao solidificar-se (tal qual a água). É encontrado na forma de sulfetos ou óxidos, mas também na forma de cristais elementares, que formam pequenas camadas de óxidos na superfície e refletem tonalidades furta-cor. Descoberto em 1753 por Claude François Geoffroy.'
 
     icone.innerHTML = '<p id="indice">83</p>Bi'
     txtTh.innerText = 'bismuto'
 })
 
 mc.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O moscóvio (Mc) é um elemento químico superpesado de número atômico 115, cuja síntese foi anunciada em 2010 por uma equipe de cientistas russo-americanos. Foi produzido em experimentos realizados no Instituto Conjunto para Pesquisa Nuclear (JINR) na Rússia e no Laboratório Nacional Lawrence Livermore (LLNL) nos Estados Unidos. O moscóvio é altamente instável e tem uma vida média extremamente curta, sendo um marco na pesquisa de elementos superpesados e na expansão da tabela periódica. Fui descoberto em 2004 por Yuri Oganessian '
+    texto.innerHTML = 'Foi produzido inicialmente, em 2003, por meio do trabalho conjunto de cientistas russos e norte-americanos. Mesmo assim, quase 20 anos após sua síntese inicial, suas propriedades básicas ainda estão sendo determinadas. Desse modo, muito se especula e pouco se sabe sobre as suas propriedades. Descoberto em 2004 por Yuri Oganessian.'
 
     icone.innerHTML = '<p id="indice">115</p>Mc'
     txtTh.innerText = 'moscóvio'
 })
 
 lv.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O livermório (Lv) é um elemento químico de número atômico 116, sintetizado em laboratório em 2000 por uma equipe de cientistas russo-americanos. É altamente instável e tem uma vida extremamente curta. Sua descoberta foi significativa para a tabela periódica. Foi descoberto em 2000 por Yuri Oganessian'
+    texto.innerHTML = 'É um elemento transurânico, radioativo, superpesado, provavelmente metálico, sólido e com aspecto prateado. Por sua instabilidade, reduzido tempo de meia-vida e dificuldade de coleta, não existem aplicação industriais ou comerciais para este elemento e sua implementação é relegada apenas para pesquisa científica. Descoberto em 2000 por Yuri Oganessian.'
 
     icone.innerHTML = '<p id="indice">116</p>Lv'
     txtTh.innerText = 'livermório'
@@ -604,40 +604,40 @@ lv.addEventListener('mouseover',()=>{
 
 /*Classe de Halogenios*/
 f.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'Quando puro, apresenta-se como um gás diatômico de coloração amarelo-clara e odor característico. O flúor é um elemento extremamente reativo, corrosivo, tóxico e o mais eletronegativo entre todos os elementos da Tabela Periódica. É bastante distribuído na crosta terrestre, tendo a fluorita como principal fonte mineral. É obtido por meio da oxidação eletrolítica do fluoreto de potássio e é majoritariamente empregado para a produção do combustível nuclear UF6. Também é usado em cremes dentais e na preparação do teflon, entre outros usos. Foi descoberto em 1886 por Henri Moissan'
+    texto.innerHTML = 'Quando puro, apresenta-se como um gás diatômico de coloração amarelo-clara e odor característico. O flúor é um elemento extremamente reativo, corrosivo, tóxico e o mais eletronegativo entre todos os elementos da Tabela Periódica. É bastante distribuído na crosta terrestre, tendo a fluorita como principal fonte mineral. É obtido por meio da oxidação eletrolítica do fluoreto de potássio e é majoritariamente empregado para a produção do combustível nuclear UF6. Também é usado em cremes dentais e na preparação do teflon, entre outros usos. Descoberto em 1886 por Henri Moissan.'
 
     icone.innerHTML = '<p id="indice">9</p>F'
     txtTh.innerText = 'Flúor'})
 
 cl.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O cloro (Cl), com número atômico 17, é um elemento químico comum que foi isolado pela primeira vez em 1774 por Carl Wilhelm Scheele. É um gás de cor verde-amarelada à temperatura ambiente e é amplamente conhecido por suas propriedades de desinfecção e uso em produtos químicos, desinfetantes e tratamento de água. O cloro é essencial para a vida e desempenha papéis importantes em reações químicas biológicas e industriais. Foi descoberto em 1774 por Carl Wilhelm Scheele '
+    texto.innerHTML = 'É um gás de coloração amarelo-esverdeada que se torna líquido ao ser resfriado até a temperatura de -34 °C. É bastante reativo, irritante e possui apenas dois isótopos naturais: os de massa 35 e 37. Compostos de cloro podem ser utilizados como intermediários para a produção de diversos compostos essenciais para nosso coditiano, como polímeros, resinas, medicamentos, entre outros. Alguns compostos de cloro são tóxicos, e as primeiras armas químicas utilizadas continham compostos de cloro. Descoberto em 1774 por Carl Wilhelm Scheele.'
 
     icone.innerHTML = '<p id="indice">17</p>Cl'
     txtTh.innerText = 'cloro'
 })
 
 br.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'À temperatura ambiente, o bromo encontra-se no estado líquido. É vermelho, volátil e denso. Sua reatividade é intermediária entre a do cloro e a do iodo. No estado líquido é perigoso para o tecido humano e seus vapores irritam os olhos e a garganta. Foi descoberto em 1826 por Carl Jacob Lowig e Antoine Jerome Balard'
+    texto.innerHTML = 'À temperatura ambiente, o bromo encontra-se no estado líquido. É vermelho, volátil e denso. Sua reatividade é intermediária entre a do cloro e a do iodo. No estado líquido é perigoso para o tecido humano e seus vapores irritam os olhos e a garganta. Descoberto em 1826 por Carl Jacob Lowig e Antoine Jerome Balard.'
 
     icone.innerHTML = '<p id="indice">35</p>Br'
     txtTh.innerText = 'bromo'
 })
 
 i.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O iodo (I), com número atômico 53, é um elemento químico essencial que foi isolado pela primeira vez em 1811 por Bernard Courtois. É um sólido escuro à temperatura ambiente, conhecido por seu uso em desinfetantes e produtos químicos. Além disso, desempenha um papel crítico na regulação do metabolismo na glândula tireoide humana e é amplamente usado na medicina, na indústria e em produtos farmacêuticos. Foi descoberto em 1826 por Carl Jacob Lowig e Antoine Jerome Balard '
+    texto.innerHTML = 'O iodo à temperatura ambiente é um sólido negro e lustroso, que possui leve brilho metálico, se sofrer evaporação se transforma em um gás de coloração violeta e odor irritante. O iodo é um elemento indispensável ao funcionamento do organismo de mamíferos. Esse mineral participa na formação de dois hormônios da glândula tireóide (tiroxina e triiodotiroxina). A falta de iodo em crianças, decorrente da má alimentação da mãe durante a gestação, pode levar a danos cerebrais. Descoberto em 1811 por Bernard Courtois.'
 
     icone.innerHTML = '<p id="indice">53</p>I'
     txtTh.innerText = 'iodo'})
 
 at.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'Este elemento altamente radioativo comporta-se quimicamente como os demais halogênios, especialmente como o iodo. O ástato tem caráter mais metálico que o iodo. Pesquisadores do Laboratório Nacional de Brookhaven identificaram as reações e as medidas elementares que envolvem o ástato. A maioria das características do ástato são conhecidos através dos seus isótopos sintéticos. Foi descoberto em 1940 por Dale R. Corson'
+    texto.innerHTML = 'Este elemento altamente radioativo comporta-se quimicamente como os demais halogênios, especialmente como o iodo. O ástato tem caráter mais metálico que o iodo. Pesquisadores do Laboratório Nacional de Brookhaven identificaram as reações e as medidas elementares que envolvem o ástato. A maioria das características do ástato são conhecidos através dos seus isótopos sintéticos. Descoberto em 1940 por Dale R. Corson.'
 
     icone.innerHTML = '<p id="indice">85</p>At'
     txtTh.innerText = 'ástato'
 })
 
 ts.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'As propriedades do tenesso ainda estão sendo estudadas por meio da química teórica e dos cálculos matemáticos, tendo em vista sua baixa taxa de produção. Sua produção se dá pela reação entre o 48Ca e o 249Bk, sendo possível produzir o isótopo 294 ou 293 do elemento. O nome faz referência ao estado norte-americano do Tennessee, local de origem de alguns cientistas envolvidos na descoberta e também da produção do isótopo 249Bk, tão importante para a síntese desse novo elemento. Foi descoberto em 2010 por Yuri Oganessian'
+    texto.innerHTML = 'As propriedades do tenesso ainda estão sendo estudadas por meio da química teórica e dos cálculos matemáticos, tendo em vista sua baixa taxa de produção. Sua produção se dá pela reação entre o 48Ca e o 249Bk, sendo possível produzir o isótopo 294 ou 293 do elemento. O nome faz referência ao estado norte-americano do Tennessee, local de origem de alguns cientistas envolvidos na descoberta e também da produção do isótopo 249Bk, tão importante para a síntese desse novo elemento. Descoberto em 2010 por Yuri Oganessian.'
 
     icone.innerHTML = '<p id="indice">117</p>Ts'
     txtTh.innerText = 'tenesso'
@@ -645,105 +645,105 @@ ts.addEventListener('mouseover',()=>{
 
 /*Classe de Lantanideos*/
 la.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O lantânio é maleável, dúctil, e mole bastante para ser cortado com uma faca. É um dos mais reativos entre os elementos terras raras. O metal reage diretamente como os elementos carbono, nitrogênio, boro, selênio, silício, fósforo, enxofre, e com halogênios. Oxida rapidamente quanto exposto ao ar. A água fria ataca lentamente o lantânio, enquanto a água quente ataca muito mais rapidamente. Foi descoberto em 1839 por Carl Gustaf Mosander '
+    texto.innerHTML = 'O lantânio é maleável, dúctil, e mole bastante para ser cortado com uma faca. É um dos mais reativos entre os elementos terras raras. O metal reage diretamente como os elementos carbono, nitrogênio, boro, selênio, silício, fósforo, enxofre, e com halogênios. Oxida rapidamente quanto exposto ao ar. A água fria ataca lentamente o lantânio, enquanto a água quente ataca muito mais rapidamente. Descoberto em 1839 por Carl Gustaf Mosander.'
 
     icone.innerHTML = '<p id="indice">57</p>La'
     txtTh.innerText = 'lantânio'
 })
 
 ce.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'A indústria de vidros utiliza o cério para vários usos, como em polimento, descoloração e pigmentação. O elemento também possui aplicação no campo dos catalisadores, como no controle da emissão automotiva, tratamento de rejeitos líquidos, craqueamento do petróleo e diversos processos orgânicos. Foi descoberto em 1803 por Jöns Jacob Berzelius e Wilhelm Hisinger'
+    texto.innerHTML = 'A indústria de vidros utiliza o cério para vários usos, como em polimento, descoloração e pigmentação. O elemento também possui aplicação no campo dos catalisadores, como no controle da emissão automotiva, tratamento de rejeitos líquidos, craqueamento do petróleo e diversos processos orgânicos. Descoberto em 1803 por Jöns Jacob Berzelius e Wilhelm Hisinger.'
 
     icone.innerHTML = '<p id="indice">58</p>Ce'
     txtTh.innerText = 'cério'
 })
 
 pr.addEventListener('mouseover',()=>{
-    texto.innerHTML = ' O praseodímio é um elemento metálico prateado, macio pertencente aos lantanídios. É mais resistente a corrosão no ar do que o európio, lantânio, cério ou o neodímio, porém desenvolve um óxido verde que reveste o metal quando exposto ao ar, expondo o metal ainda mais a oxidação. Por essa razão, o praseodímio deve ser armazenado imerso em óleo mineral ou selado em plástico ou vidro. O praseodímio é usado como núcleo nas lâmpadas de arco de carbono para a indústria cinematográfica, para iluminação de estúdios e projetores. Foi descoberto em 1885 por Baron Carl Auer von Welsbach'
+    texto.innerHTML = ' O praseodímio é um elemento metálico prateado, macio pertencente aos lantanídios. É mais resistente a corrosão no ar do que o európio, lantânio, cério ou o neodímio, porém desenvolve um óxido verde que reveste o metal quando exposto ao ar, expondo o metal ainda mais a oxidação. Por essa razão, o praseodímio deve ser armazenado imerso em óleo mineral ou selado em plástico ou vidro. O praseodímio é usado como núcleo nas lâmpadas de arco de carbono para a indústria cinematográfica, para iluminação de estúdios e projetores. Descoberto em 1885 por Baron Carl Auer von Welsbach.'
 
     icone.innerHTML = '<p id="indice">59</p>Pr'
     txtTh.innerText = 'praseodímio'
 })
 
 nd.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'É um metal branco prateado levemente acinzentado, é maleável e dúctil além de resistente a ação de agentes químicos quando este está presente em ligas metálicas. Na indústria de equipamento cinematográfico como componente de luzes e refletores para iluminação; Foi descoberto em 1885 por Baron Carl Auer von Welsbach '
+    texto.innerHTML = 'É um metal branco prateado levemente acinzentado, é maleável e dúctil além de resistente a ação de agentes químicos quando este está presente em ligas metálicas. Na indústria de equipamento cinematográfico como componente de luzes e refletores para iluminação; Descoberto em 1885 por Baron Carl Auer von Welsbach.'
 
     icone.innerHTML = '<p id="indice">60</p>Nd'
     txtTh.innerText = 'neodímio'
 })
 
 pm.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O promécio é um leve emissor de partículas betas, porém não emite radiações gama. Porém, pode ocorrer emissão de raios-X quando as partículas betas atingem elementos com números atômicos mais altos. Pouco é conhecido sobre as propriedades químicas e físicas do promécio metálico, porém são semelhantes ao neodímio e samário. O promécio apresenta duas variedades alotrópicas. Sais deste metal apresentam luminescência na obscuridade com um fulgor azul ou acinzentado pálido devido à sua elevada radioatividade. Foi descoberto em 1945 por Jacob A. Mar9nsky, Lawrence Glendenin e Charles D. Coryell '
+    texto.innerHTML = 'O promécio é um leve emissor de partículas betas, porém não emite radiações gama. Porém, pode ocorrer emissão de raios-X quando as partículas betas atingem elementos com números atômicos mais altos. Pouco é conhecido sobre as propriedades químicas e físicas do promécio metálico, porém são semelhantes ao neodímio e samário. O promécio apresenta duas variedades alotrópicas. Sais deste metal apresentam luminescência na obscuridade com um fulgor azul ou acinzentado pálido devido à sua elevada radioatividade. Descoberto em 1945 por Jacob A. Mar9nsky, Lawrence Glendenin e Charles D. Coryell.'
 
     icone.innerHTML = '<p id="indice">61</p>Pm'
     txtTh.innerText = 'promécio'
 })
 
 sm.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O samário é principalmente empregado na produção de ímãs permanentes, na forma da liga samário e cobalto, SmCo. É um ímã que mantém suas propriedades magnéticas em boas temperaturas, com preço acessível e sendo resistente à corrosão. Também é aplicado como hastes de controle de nêutrons em reatores nucleares. Foi descoberto em 1879 por Paul-Émile Lecoq de Boisbaudran '
+    texto.innerHTML = 'O samário é principalmente empregado na produção de ímãs permanentes, na forma da liga samário e cobalto, SmCo. É um ímã que mantém suas propriedades magnéticas em boas temperaturas, com preço acessível e sendo resistente à corrosão. Também é aplicado como hastes de controle de nêutrons em reatores nucleares. Descoberto em 1879 por Paul-Émile Lecoq de Boisbaudran.'
 
     icone.innerHTML = '<p id="indice">62</p>Sm'
     txtTh.innerText = 'samário'
 })
 
 eu.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'É o mais reativo dos elementos terras raras; oxida-se rapidamente com o ar, e assemelha-se ao cálcio na sua reação com a água. Como outras terras raras (a exceção do lantânio), o európio inflama-se com o ar entre 150 °C e 180 °C, aproximadamente. Apresenta uma ductilidade muito alta e é aproximadamente tão duro quanto o chumbo. Tem um magnetismo elevado, em condições normais de temperatura e pressão. Cientista demonstraram que este elemento possui supercondutividade a temperaturas de –271,35 ºC e pressões de 80 gigapascal. Foi descoberto em 1901 por Eugène Anatole Demarcay '
+    texto.innerHTML = 'É o mais reativo dos elementos terras raras; oxida-se rapidamente com o ar, e assemelha-se ao cálcio na sua reação com a água. Como outras terras raras (a exceção do lantânio), o európio inflama-se com o ar entre 150 °C e 180 °C, aproximadamente. Apresenta uma ductilidade muito alta e é aproximadamente tão duro quanto o chumbo. Tem um magnetismo elevado, em condições normais de temperatura e pressão. Cientista demonstraram que este elemento possui supercondutividade a temperaturas de –271,35 ºC e pressões de 80 gigapascal. Descoberto em 1901 por Eugène Anatole Demarcay.'
 
     icone.innerHTML = '<p id="indice">63</p>Eu'
     txtTh.innerText = 'európio'
 })
 
 gd.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'Branco prateado, maleável, dúctil com um brilho metálico. Cristaliza na forma hexagonal que é a forma alfa, à temperatura ambiente. Quando aquecido a 1508 K transforma-se na sua forma beta, que é uma estrutura cristalina cúbica de corpo centrado. Foi descoberto em 1880 por Jean-Charles-Galinard de Marignac '
+    texto.innerHTML = 'Branco prateado, maleável, dúctil com um brilho metálico. Cristaliza na forma hexagonal que é a forma alfa, à temperatura ambiente. Quando aquecido a 1508 K transforma-se na sua forma beta, que é uma estrutura cristalina cúbica de corpo centrado. Descoberto em 1880 por Jean-Charles-Galinard de Marignac.'
 
     icone.innerHTML = '<p id="indice">64</p>Gd'
     txtTh.innerText = 'gadolínio'
 })
 
 tb.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O térbio é um metal terra rara, cinza-prateado, que é maleável e dúctil. É macio o bastante para ser cortado com uma faca. É razoavelmente estável no ar, apresentando duas formas cristalinas com uma temperatura de transformação de 1289 °C. É utilizado para dopar fluoreto de cálcio, tungstato de cálcio e molibdato de estrôncio, materiais que são usados em dispositivos semicondutores. Foi descoberto em 1843 por Carl Gustaf Mosander '
+    texto.innerHTML = 'O térbio é um metal terra rara, cinza-prateado, que é maleável e dúctil. É macio o bastante para ser cortado com uma faca. É razoavelmente estável no ar, apresentando duas formas cristalinas com uma temperatura de transformação de 1289 °C. É utilizado para dopar fluoreto de cálcio, tungstato de cálcio e molibdato de estrôncio, materiais que são usados em dispositivos semicondutores. Descoberto em 1843 por Carl Gustaf Mosander.'
 
     icone.innerHTML = '<p id="indice">65</p>Tb'
     txtTh.innerText = 'térbio'
 })
 
 dy.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'Em função do alto ponto de fusão e inércia química, o disprósio é utilizado na metalurgia de aços inoxidáveis especiais para fabricação de revestimentos para reatores nucleares, e na fabricação de equipamentos resistentes a altas temperaturas. Forma liga com o níquel que é utilizado em sistemas de refrigeração para reatores nucleares, além de possuir capacidade de absorção de nêutrons. Foi descoberto em 1886 por Paul-Émile Lecoq de Boisbaudran '
+    texto.innerHTML = 'Em função do alto ponto de fusão e inércia química, o disprósio é utilizado na metalurgia de aços inoxidáveis especiais para fabricação de revestimentos para reatores nucleares, e na fabricação de equipamentos resistentes a altas temperaturas. Forma liga com o níquel que é utilizado em sistemas de refrigeração para reatores nucleares, além de possuir capacidade de absorção de nêutrons. Descoberto em 1886 por Paul-Émile Lecoq de Boisbaudran.'
 
     icone.innerHTML = '<p id="indice">66</p>Dy'
     txtTh.innerText = 'disprósio'
 })
 
 ho.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O hólmio é um metal macio, maleável, razoavelmente resistente à corrosão e estável no ar seco nas condições normais de pressão e temperatura. Entretanto, no ar úmido e temperaturas mais elevadas, oxida-se rapidamente formando um óxido. Na forma pura, o hólmio apresenta um aspecto metálico, prateado e brilhante. Foi descoberto em 1878 por J. L. Soret e M. Delafontaine '
+    texto.innerHTML = 'O hólmio é um metal macio, maleável, razoavelmente resistente à corrosão e estável no ar seco nas condições normais de pressão e temperatura. Entretanto, no ar úmido e temperaturas mais elevadas, oxida-se rapidamente formando um óxido. Na forma pura, o hólmio apresenta um aspecto metálico, prateado e brilhante. Descoberto em 1878 por J. L. Soret e M. Delafontaine.'
 
     icone.innerHTML = '<p id="indice">67</p>Ho'
     txtTh.innerText = 'hólmio'
 })
 
 er.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O térbio é um metal terra rara, cinza-prateado, que é maleável e dúctil. É macio o bastante para ser cortado com uma faca. É razoavelmente estável no ar, apresentando duas formas cristalinas com uma temperatura de transformação de 1289 °C. É utilizado para dopar fluoreto de cálcio, tungstato de cálcio e molibdato de estrôncio, materiais que são usados em dispositivos semicondutores. Foi descoberto em 1843 por Carl Gustaf Mosander.'
+    texto.innerHTML = 'É um elemento metálico trivalente que na forma pura é maleável, macio, relativamente estável no ar, não oxidando tão rapidamente quanto alguns outros metais terras raras. Seus sais são coloridos (rosa) , e o elemento tem faixas de absorção espectral no visível, ultravioleta e próximo do infravermelho que, associado com a sua configuração electrónica lhe confere cores pastéis muito bonitas. Descoberto em 1842 por Carl Gustaf Mosander.'
 
     icone.innerHTML = '<p id="indice">68</p>Er'
     txtTh.innerText = 'érbio'
 })
 
 tm.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O túlio (Tm), com número atômico 69. É um metal raro, prateado, que possui aplicações limitadas devido à sua escassez e custo elevado. O túlio é usado em tecnologia de laser, dispositivos médicos, como marcadores em exames de imagem, e em pesquisas científicas devido às suas propriedades magnéticas. Embora não seja amplamente conhecido, desempenha um papel importante em aplicações de alta tecnologia e pesquisa científica. Foi descoberto em 1879 por Per Teodor Cleve'
+    texto.innerHTML = 'Ele é empregado em pequenas quantidades no campo médico, por exemplo, como agente dopante na granada de ítrio e alumínio (Y3Al5O12), mineral utilizado em cirurgias a laser. Descoberto em 1879 por Per Teodor Cleve.'
 
     icone.innerHTML = '<p id="indice">69</p>Tm'
     txtTh.innerText = 'túlio'
 })
 
 yb.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O itérbio é um elemento de poucas utilizações, porém pode ser aplicado como melhorador do aço inoxidável, em aparelhos portáteis de raios-X e na composição de relógios atômicos. Sua produção se dá por redução metalotérmica, empregando-se o lantânio como metal redutor. Foi descoberto em 1878 por Jean-Charles-Galinard de Marignac '
+    texto.innerHTML = 'O itérbio é um elemento de poucas utilizações, porém pode ser aplicado como melhorador do aço inoxidável, em aparelhos portáteis de raios-X e na composição de relógios atômicos. Sua produção se dá por redução metalotérmica, empregando-se o lantânio como metal redutor. Descoberto em 1878 por Jean-Charles-Galinard de Marignac.'
 
     icone.innerHTML = '<p id="indice">70</p>Yb'
     txtTh.innerText = 'itérbio'
 })
 
 lu.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'Na sua forma metálica, apresenta coloração branca acinzentada e resiste bem à corrosão. Em solução, como os demais lantanídeos, o lutécio adota o número de oxidação igual a +3. Embora os lantanídeos tenham ampla utilização em setores econômicos que estão crescendo bastante, o lutécio ainda tem aplicações restritas, como na fabricação de lasers, instrumentos ópticos, cerâmicas e em tratamentos experimentais para casos graves de câncer. Foi descoberto em 1907 por Georges Urbain e Charles James '
+    texto.innerHTML = 'Na sua forma metálica, apresenta coloração branca acinzentada e resiste bem à corrosão. Em solução, como os demais lantanídeos, o lutécio adota o número de oxidação igual a +3. Embora os lantanídeos tenham ampla utilização em setores econômicos que estão crescendo bastante, o lutécio ainda tem aplicações restritas, como na fabricação de lasers, instrumentos ópticos, cerâmicas e em tratamentos experimentais para casos graves de câncer. Descoberto em 1907 por Georges Urbain e Charles James.'
 
     icone.innerHTML = '<p id="indice">71</p>Lu'
     txtTh.innerText = 'lutécio'
@@ -751,104 +751,104 @@ lu.addEventListener('mouseover',()=>{
 
 /*Classe de Actinidios*/
 ac.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'Suas aplicações ainda são restritas, mas se sabe que ele pode ser utilizado como fonte energética para espaçonaves e dispositivos que trabalham em regiões remotas, assim como o actínio-225 é um potencial candidato para o tratamento de alguns tipos de câncer. Foi descoberto em 1899 por André-Louis Debierne '
+    texto.innerHTML = 'Suas aplicações ainda são restritas, mas se sabe que ele pode ser utilizado como fonte energética para espaçonaves e dispositivos que trabalham em regiões remotas, assim como o actínio-225 é um potencial candidato para o tratamento de alguns tipos de câncer. Descoberto em 1899 por André-Louis Debierne.'
 
     icone.innerHTML = '<p id="indice">89</p>Ac'
     txtTh.innerText = 'actínio'
 })
 
 th.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'Se destaca por sua boa resistência térmica, o que o habilita para espaçonaves e mísseis. O óxido de tório, ThO2, é o de maior ponto de fusão, além de ter um alto índice de refração. O tório também vem sendo estudado como combustível para usinas nucleares, cuja aplicação apresenta vantagens sobre o urânio convencionalmente usado. Foi descoberto em 1829 por Jons Jacob Berzelius '
+    texto.innerHTML = 'Se destaca por sua boa resistência térmica, o que o habilita para espaçonaves e mísseis. O óxido de tório, ThO2, é o de maior ponto de fusão, além de ter um alto índice de refração. O tório também vem sendo estudado como combustível para usinas nucleares, cuja aplicação apresenta vantagens sobre o urânio convencionalmente usado. Descoberto em 1829 por Jons Jacob Berzelius.'
 
     icone.innerHTML = '<p id="indice">90</p>Th'
     txtTh.innerText = 'Tório'
 })
 
 pa.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O protactínio é um elemento químico de símbolo Pa e de número atômico igual a 91, com massa atómica aproximada de 231,0 u. À temperatura ambiente, o protactínio encontra-se no estado sólido. Não existe atualmente nenhum uso para o protactínio fora do âmbito da pesquisa científica básica.'
+    texto.innerHTML = 'Entre as poucas aplicações conhecidas, destaca-se que o protactínio já foi utilizado em cintiladores para detecção de raios X. Também já foi usado para datação de objetos antigos. Descoberto em 1913 por Oswald Helmuth Gohring.'
 
     icone.innerHTML = '<p id="indice">91</p>Pa'
     txtTh.innerText = 'protactínio'
 })
 
 u.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O urânio, é um elemento químico de símbolo U e de massa atômica igual a 238 u, apresenta número atômico 92, é um elemento natural e comum, muito mais abundante que a prata, abundância comparável à do molibdênio e arsênio, porém, quatro vezes menos abundante que o tório.'
+    texto.innerHTML = 'O urânio tem grande importância para a geração de energia, pois sua propriedade radioativa faz com que ele gere grandes quantidades energéticas durante os processos de fissão nuclear que ocorrem nas usinas. A energia nuclear tem grandes vantagens, não só por precisar de pouco combustível, mas porque não emite gases tóxicos e poluentes, como os de combustíveis fósseis. Contudo, toda essa capacidade energética já fez com que o elemento fosse utilizado em armas de grande destruição. Descoberto em 1789 por Martin Heinrich Klaproth.'
 
     icone.innerHTML = '<p id="indice">92</p>U'
     txtTh.innerText = 'urânio'})
 
 np.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O neptúnio ou netúnio é um elemento químico sintético de símbolo Np, com número atômico 93. A sua massa atómica é 237,0482 u. À temperatura ambiente, o neptúnio encontra-se no estado sólido. É o quarto elemento da família dos actinídeos.'
+    texto.innerHTML = 'É um elemento metálico, radioativo, prateado, pertencente à série dos elementos de transição interna, sendo o primeiro elemento transurânico sintético. Seu isótopo mais estável, Np-237, é um subproduto de reatores nucleares e produção de plutônio. Pode ser usado na composição de equipamentos para a detecção de nêutrons e como combustível nuclear. Descoberto em 1940 por Edwin McMilan e Philip Hauge Abelson.'
 
     icone.innerHTML = '<p id="indice">93</p>Np'
     txtTh.innerText = 'neptúnio'
 })
 
 pu.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O plutónio ou plutônio é um elemento químico representado pelo símbolo Pu e de número atômico igual a 94. À temperatura ambiente, o plutônio encontra-se no estado sólido.'
+    texto.innerHTML = 'O nome plutónio deriva do nome do planeta Plutão. O isótopo de massa atómica 239 utiliza-se como combustível para reatores nucleares e no fabrico de bombas atómicas. Descoberto em 1940 por Arthur C. Wahl, Glenn Seaborg e Joseph William Kennedy.'
 
     icone.innerHTML = '<p id="indice">94</p>Pu'
     txtTh.innerText = 'plutônio'
 })
 
 am.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O amerício é um elemento químico radioativo e transurânico com símbolo Am e número atômico 95. É um elemento actínio, localizado na tabela periódica abaixo do elemento európio, um lantanídio, e portanto por analogia, foi nomeado a partir de outro continente, a América.'
+    texto.innerHTML = 'Por incrível que pareça, o amerício é um elemento radioativo que seria bom termos em casa. Isso porque o AmO2 é o componente chave de detectores de fumaça. Descoberto em 1944 por Ralph Arthur James.'
 
     icone.innerHTML = '<p id="indice">95</p>Am'
     txtTh.innerText = 'amerício'
 })
 
 cm.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O cúrio é um elemento químico de símbolo Cm, de número atômico 96 com massa atômica 247 u. É um elemento metálico, sintético, transurânico, do grupo dos actinídeos.'
+    texto.innerHTML = 'Aplicado em geração de energia termoelétrica em dispositivos, incluindo alguns modelos de marcapassos cardíacos. Muitos dos compostos de cúrio possuem uma cor amarelo-pálida. Se o cúrio penetrar no corpo humano, acumula-se nos ossos e, portanto, é muito tóxico, tal como a sua radiação que destrói o mecanismo de formação das células vermelhas da medula óssea. Descoberto em 1944 por Glenn Seaborg.'
 
     icone.innerHTML = '<p id="indice">96</p>Cm'
     txtTh.innerText = 'cúrio'
 })
 
 bk.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O berquélio ou berkélio é um elemento químico de símbolo Bk, número atômico 97 que apresenta massa atómica igual a [247] u. É um elemento metálico, sintético, transurânico, pertencente ao grupo dos actinídeos na tabela periódica dos elementos. O berquélio-243 foi o primeiro isótopo sintetizado deste elemento.'
+    texto.innerHTML = 'O nome berquélio deriva do inglês Berkeley. O berquélio é atacado pelo oxigénio, vapor e ácidos, mas não por bases. Desconhecem-se aplicações práticas. Descobertor em 1949 por Stanley Gerald Thompson.'
 
     icone.innerHTML = '<p id="indice">97</p>Bk'
     txtTh.innerText = 'berquélio'
 })
 
 cf.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O califórnio é um elemento químico de símbolo Cf, número atômico 98 e de massa atómica igual a [251] u. É um elemento metálico, sintético, transurânico, sólido, provavelmente de aspecto prateado, encontrado no grupo dos actinídeos da tabela periódica dos elementos.'
+    texto.innerHTML = 'O seu principal uso é como fonte de nêutrons para a análise do solo terrestre ou de outros planetas através de sondas espaciais. É o metal mais caro que pode ser comprado, custando aproximadamente US$ 27 milhões o grama e só pode ser comprado por uma organização internacional. Descoberto em 1950 - Berkeley por Glenn T. Seaborg, Stanley G. Thompson, Albert Ghiorso e Kenneth Street Jr.'
 
     icone.innerHTML = '<p id="indice">98</p>Cf'
     txtTh.innerText = 'califórnio'
 })
 
 es.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O einstênio ou einsténio é um elemento químico de símbolo Es, número atômico 99 e com massa atômica [252] u. É um elemento metálico, transurânico e radioactivo, pertencente ao grupo dos actinídeos. O elemento foi identificado pelo grupo de pesquisa formado por G. R. Choppin, A. Ghiorso, B. G. Harvey e C. G.'
+    texto.innerHTML = 'O einstênio é um metal, sólido, de aspecto prateado, altamente radioativo, produzido artificialmente. Estudos de amostras de Es-253 demonstram que este elemento apresenta propriedades químicas típicas de um trivalente metal pesado. Descoberto em 1952 por Gregory R. Choppin.'
 
     icone.innerHTML = '<p id="indice">99</p>Es'
     txtTh.innerText = 'einstênio'
 })
 
 fm.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O férmio é um elemento químico sintético, de símbolo Fm, número atômico 100 com massa atómica [257] u. É radioativo, metálico, transurânico, e faz parte do grupo dos actinídeos. Foi descoberto em 1955 por uma equipe liderada por Albert Ghiorso. É produzido pelo bombardeamento de plutônio com nêutron.'
+    texto.innerHTML = 'É um elemento químico sólido, transurânico metálico preparado por síntese e radioativo, de cor branco-prateada ou acinzentada. Até hoje, o elemento só foi produzido em pequenas quantidades, por isso ainda não foi possível um estudo mais detalhado de suas propriedades. Descoberto em 1952 por Stanley Gerald Thompson.'
 
     icone.innerHTML = '<p id="indice">100</p>Fm'
     txtTh.innerText = 'férmio'
 })
 
 md.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O mendelévio é um elemento químico de símbolo Md, número atômico 101 e de massa atómica igual a 258 u. É metálico, radioativo, transurânico, do grupo dos actinídeos. O mendelévio foi sintetizado pela primeira vez em 1955 por uma equipe de cientistas norte-americana liderada por Albert Ghiorso.'
+    texto.innerHTML = 'Pesquisadores demonstraram que o mendelévio tem uma estabilidade moderada quando apresenta estado de oxidação dipositivo ( II ) além do estado de oxidação tripositivo (III) característico dos elementos actinídeos. O Md-256 foi usado para descobrir algumas propriedades químicas deste elemento, mesmo que em solução aquosa. Não há nenhum uso do mendelévio conhecido, mesmo porque apenas quantidades traços foram obtidas até agora. Descoberto em 1955 por Albert Ghiorso e Glenn Seaborg.'
 
     icone.innerHTML = '<p id="indice">101</p>Md'
     txtTh.innerText = 'mendelévio'
 })
 
 no.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'Nobélio é um elemento químico da Tabela Periódica, símbolo No, número atômico 102, de massa atómica 259 u. É metálico, radioativo, transurânico, do grupo dos actinídeos. É sintetizado bombardeando o cúrio-248 ou califórnio-249 com íons carbono.'
+    texto.innerHTML = 'Pouco é conhecido sobre o nobélio, e somente quantidades pequenas deste elemento foram produzidas até agora. Fora do âmbito da pesquisa nenhum uso foi encontrado para este elemento. O isótopo mais estável, nobélio-259, tem uma meia-vida de 58 minutos, e decai para o férmio-255 por emissão alfa ou para mendelévio-259 por captura eletrônica. Descoberto em 1958 por Glenn Seaborg.'
 
     icone.innerHTML = '<p id="indice">102</p>No'
     txtTh.innerText = 'Nobélio'
 })
 
 lr.addEventListener('mouseover',()=>{
-    texto.innerHTML = 'O laurêncio ou lawrêncio é um elemento químico sintético, símbolo Lr, número atômico 103 e com massa atómica [262] u. É um elemento radioativo, de curta-duração, transurânico, último elemento do grupo dos actinídeos'
+    texto.innerHTML = 'A aparência deste elemento é desconhecida, entretanto, é muito provável ser metálico, sólido, branco prateado ou cinza. Se quantidades suficientes de laurêncio forem produzidas apresentarão o perigo da radiação. Pouco é conhecido sobre as propriedades químicas deste elemento, porém trabalhos preliminares com alguns átomos indicaram que é semelhante aos actinídeos. Descoberto em 1961 por Torbjorn Sikkeland.'
 
     icone.innerHTML = '<p id="indice">103</p>Lr'
     txtTh.innerText = 'laurêncio'
