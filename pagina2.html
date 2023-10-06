@@ -10,87 +10,54 @@
 
 
 
-        body {
-
+    body {
             font-family: 'Times New Roman', Times, serif;
-
             background-image: url(rick_and_morty_s4_image.jpg);
-            
-            
-
             background-size: cover;
-
             background-repeat: no-repeat;
-
-
             text-align: center;
-
-            color:  rgb(14, 252, 252);
-
-
+            color: rgb(255, 238, 0);
             width: 100%;
-        
-
         }
-
- 
 
         select {
-
             padding: 10px;
-
             font-size: 16px;
-
             opacity: 0.6;
-
             background-color: #131010;
-
-            color: rgb(14, 252, 252);
-
-            border: solid  rgb(14, 252, 252) 2px;
-
+            color: rgb(255, 238, 0);
+            border: solid 2px rgb(255, 238, 0);
         }
 
- 
+        .highlighted {
+            border: 2px solid rgb(255, 238, 0);
+        }
 
         #element-info {
-
             background-color: #131010;
-
             border-radius: 10px;
-
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
             width: 300px;
-
             margin: 20px auto;
-
             padding: 20px;
-
             opacity: 0.6;
-
-            border: solid  rgb(14, 252, 252) 3px;
-
+            border: solid 3px rgb(255, 238, 0);
         }
-
- 
 
         h1 {
             font-size: 24px;
-            color:  rgb(14, 252, 252);
-
+            color: rgb(255, 238, 0);
         }
 
- 
-
         p {
-            color:  rgb(14, 252, 252);
+            color: rgb(255, 238, 0);
             font-size: 16px;
-
         }
 
         h1 {
             color: black;
+            -webkit-text-stroke: 1px rgb(255, 238, 0);
+            font-size: 45px;
         }
 
         .Nada {
@@ -99,6 +66,20 @@
 
         .element-selector {
             opacity: 0.6;
+        }
+
+        .botãopraprox {
+            display: block;
+            margin-top: 2%;
+        }
+
+        button {
+            display: block;
+            border: solid  rgb(255, 238, 0) 2px;
+            opacity: 0.6;
+            color: rgb(255, 238, 0);
+            background-color: black;
+            margin-left: 46.5%;
         }
 
     </style>
@@ -350,6 +331,13 @@
         <option value="Og">Oganessônio</option>
 
     </select>
+
+
+    <div class="botãopraprox">
+        <a href="../projeto-feiratecnico/index.html">
+            <button>Próx. Página</button>
+        </a>
+    </div>
 
  
 
