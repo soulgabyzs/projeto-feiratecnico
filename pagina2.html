@@ -360,6 +360,7 @@
 
         <p id="element-eletroconfig">Configuração Eletrônica:</p>
 
+
     </div>
 
  
@@ -378,7 +379,7 @@
 
         const elementMass = document.getElementById("element-mass");
 
-        
+        const elementConfiguration = document.getElementById("element-configuration");        
 
         
 
@@ -386,7 +387,7 @@
 
             "Nada": { name: "Nada", symbol: "Nada", type: "Nada", atomicNumber: 0, mass: 0 },
             
-            "H": { name: "Hidrogênio", symbol: "H", type: "Não metais", atomicNumber: 1, mass: 1.008 },
+            "H": { name: "Hidrogênio", symbol: "H", type: "Não metais", atomicNumber: 1, mass: 1.008, configuration: "1s1" },
 
             "He": { name: "Hélio", symbol: "He", type: "Gases nobres", atomicNumber: 2, mass: 4.003 },
 
@@ -643,6 +644,8 @@ elementName.textContent = `Nome: ${selectedData.name}`;
             atomicNumber.textContent = `Número Atômico: ${selectedData.atomicNumber}`;
 
             elementMass.textContent = `Massa Atômica: ${selectedData.mass}`;
+
+             elementConfiguration.textContent = `Configuração Eletrônica: ${selectedData.configuration}`;
 
         });
 
